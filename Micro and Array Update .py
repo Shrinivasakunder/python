@@ -6,7 +6,6 @@ for i in range(t):
     for j in range(n):
         a.append(int(input("Enter Element into list:")))
     a.sort()
-    print(a)
     if k <= a[0]:
         print("0")
     else:
